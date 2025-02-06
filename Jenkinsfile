@@ -1,6 +1,6 @@
 @Library('active-shared-libraries') _
 pipeline {
-    agent {label 'Teja'}
+    agent {label 'chetan'}
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 script {
-              checkout("https://github.com/itsmeteja9/Test.git", "main")
+              checkout("https://github.com/chetanmanne/Java-Maven.git", "main")
             }
             }
         }
