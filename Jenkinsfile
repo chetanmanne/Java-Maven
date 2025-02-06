@@ -1,4 +1,3 @@
-@Library('active-shared-libraries') _
 pipeline {
     agent any
 
