@@ -12,7 +12,7 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 script {
-              checkout('https://github.com/chetanmanne/Java-Maven.git', 'main')
+              checkout('https://github.com/chetanmanne/Java-Maven', 'main')
             }
             }
         }
